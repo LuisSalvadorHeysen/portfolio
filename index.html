@@ -107,6 +107,18 @@
             z-index: 1;
         }
 
+        .profile-pic {
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid var(--primary-color);
+            box-shadow: 0 4px 24px rgba(3, 105, 161, 0.15);
+            margin: 0 auto 18px auto;
+            display: block;
+            background: #fff;
+        }
+
         h1 {
             font-size: 3.5rem;
             margin-bottom: 15px;
@@ -543,18 +555,19 @@
     <div class="container">
         <header class="fade-in">
             <div class="header-content">
+                <img src="images/headshot.jpeg" alt="Luis Salvador Heysen headshot" class="profile-pic">
                 <h1>Luis Salvador Heysen</h1>
-                <p class="subtitle">Software Engineer & Developer</p>
+                <p class="subtitle">Aspiring Software Engineer</p>
                 <div class="social-links">
                     <a href="https://github.com/LuisSalvadorHeysen" target="_blank">
                         <i class="fab fa-github"></i>
                         GitHub
                     </a>
-                    <a href="https://linkedin.com/in/yourprofile" target="_blank">
+                    <a href="https://www.linkedin.com/in/lheysent/" target="_blank">
                         <i class="fab fa-linkedin"></i>
                         LinkedIn
                     </a>
-                    <a href="mailto:your.email@example.com">
+                    <a href="mailto:lheysent@uchicago.edu" target="_blank">
                         <i class="fas fa-envelope"></i>
                         Email
                     </a>
@@ -564,7 +577,7 @@
 
         <section class="section fade-in">
             <h2>About Me</h2>
-            <p style="text-align: center; max-width: 800px; margin-left: auto; margin-right: auto;">I'm a passionate software engineer with a focus on creating practical, user-friendly applications. I enjoy solving real-world problems through code and building tools that make people's lives easier. Currently studying at the University of Chicago, I'm always eager to learn new technologies and take on challenging projects.</p>
+            <p style="text-align: center; max-width: 800px; margin-left: auto; margin-right: auto;">I am a rising Junior at UChicago from Perú, passionate about theoretical computer science and math, and how these fields can be applied to solve real-world problems innovatively. I'm interested in quantitative finance, machine learning, and software engineering. Currently looking for internship positions in these fields for summer 2026.</p>
         </section>
 
         <section class="section fade-in">
@@ -583,6 +596,24 @@
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/LuisSalvadorHeysen/smart_ai_email" class="btn btn-primary" target="_blank">
+                            <i class="fab fa-github"></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Machine Learning-Driven Multi-Asset Algorithmic Trading Platform</h3>
+                    <p>A comprehensive, educational algorithmic trading bot suite for both SPY (S&P 500 ETF) and Bitcoin (BTC/USD) that demonstrates machine learning, backtesting, and explainable AI (XAI) in both stock and crypto trading. Features include Random Forest and Linear Regression models, 18+ technical indicators, realistic backtesting, SHAP explainability, and modular, well-documented code.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">scikit-learn</span>
+                        <span class="tech-tag">pandas</span>
+                        <span class="tech-tag">matplotlib</span>
+                        <span class="tech-tag">SHAP</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/LuisSalvadorHeysen/BitcoinBot" class="btn btn-primary" target="_blank">
                             <i class="fab fa-github"></i>
                             View Project
                         </a>
@@ -616,7 +647,7 @@
                         <span class="tech-tag">Makefile</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/LuisSalvadorHeysen/myshell" class="btn btn-primary" target="_blank">
+                        <a href="https://github.com/LuisSalvadorHeysen/shell" class="btn btn-primary" target="_blank">
                             <i class="fab fa-github"></i>
                             View Project
                         </a>
@@ -683,7 +714,7 @@
             <div class="contact-info">
                 <div class="contact-item">
                     <div class="icon">📧</div>
-                    <div>your.email@example.com</div>
+                    <div>lheysent@uchicago.edu</div>
                 </div>
                 <div class="contact-item">
                     <div class="icon">📍</div>
